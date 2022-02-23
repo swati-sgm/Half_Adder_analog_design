@@ -2,7 +2,8 @@
 # Introduction
 Half adder is a digital combinational circuit that executes addition of two single bit binary numbers and generates two outputs i.e., a sum bit (S) and carry bit (C). If A and B are taken as primary input bits, then sum bit (S) is obtained by X-ORing of input bits A and B and the carry bit (C) is obtained by ANDing of input bits A and B. Block diagram, logic diagram and truth table of half adder are shown in Figure 1 and Table 1 respectively. The Boolean expression of half adder[2] is given by: 
 S= A⊕ B and C=A.B 
-  
+   [half_adder.pdf](https://github.com/swati-sgm/Half_Adder_analog_design/files/8122232/half_adder.pdf)
+ 
 
 
 
