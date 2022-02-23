@@ -49,16 +49,19 @@ Figure 3. Half Adder Using CMOS Logic.
  Initially Schematic of the Half Adder cell was implemented and converted into a symbol so that it could be used directly as delay cell from the library.
  
  
- 
+ ![ha_sch](https://user-images.githubusercontent.com/100190726/155284404-ad60f01a-13b8-4640-8914-06020052f87e.JPG)
+
  
  Fig. 4: Half Adder Cell Schematic
  
  
- 
+ ![ha_sym](https://user-images.githubusercontent.com/100190726/155284499-95dbccd7-0036-4988-9244-3bf942ebfa5e.JPG)
+
  Fig. 5: Half Adder Cell Symbol
  
  
- 
+ ![ha_test](https://user-images.githubusercontent.com/100190726/155284515-8187e068-cbd4-4fc6-bf4c-4d0ab1ffc863.JPG)
+
  Fig. 6: Half Adder Test Circuit 
  
  
@@ -69,12 +72,14 @@ After creating and saving the schematic go to 'Tools' and open 'Primewave' to st
 Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
 
 
+![ha_wave](https://user-images.githubusercontent.com/100190726/155284548-f95e65f7-0e13-40d9-ba06-64a3aa05d801.JPG)
 
 Fig. 7: Half Adder Transient Analysis
 
 
 ## Netlist of the Circuit:
 Refer to the netlist of the circuit here:
+
 
 ## Author:
 Swati Mavinkattimath, Assistant Professor, KLE Dr. M S Sheshgiri College of Engineering and Technology Belagavi- 590008
