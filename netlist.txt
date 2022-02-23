@@ -1,0 +1,78 @@
+*  Generated for: PrimeSim
+*  Design library name: swati_HA_lb1
+*  Design cell name: test
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Wed Feb 23 08:33:22 2022
+
+.global gnd!
+********************************************************************************
+* Library          : swati_HA_lb1
+* Cell             : swati_Ha
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt swati_ha a b carry sum vdd vss
+xm7 carry net66 net30 net30 p105 w=0.1u l=0.03u nf=1 m=1
+xm6 net30 net65 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm5 net66 b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm4 net65 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm3 sum b net14 net14 p105 w=0.1u l=0.03u nf=1 m=1
+xm2 sum a net14 net14 p105 w=0.1u l=0.03u nf=1 m=1
+xm1 net14 net66 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm0 net14 net65 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm15 net43 b vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm14 net39 net66 vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm13 carry b vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm12 carry a vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm11 net66 b vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm10 sum a net43 net43 n105 w=0.1u l=0.03u nf=1 m=1
+xm9 sum net65 net39 net39 n105 w=0.1u l=0.03u nf=1 m=1
+xm8 net65 a vss vss n105 w=0.1u l=0.03u nf=1 m=1
+.ends swati_ha
+
+********************************************************************************
+* Library          : swati_HA_lb1
+* Cell             : test
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 net7 net9 net15 net13 net12 gnd! swati_ha
+v2 net9 gnd! dc=0 pulse ( 0 1.05 0 0.1u 0.1u 5u 10u )
+v1 net7 gnd! dc=0 pulse ( 0 1.05 0 0.1u 0.1u 10u 20u )
+v3 net12 gnd! dc=1.8
+c10 net15 gnd! c=1p
+c9 net13 gnd! c=1p
+
+
+
+
+
+
+
+
+.tran '1u' '20u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(net13) v(net15) v(net7) v(net9)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
