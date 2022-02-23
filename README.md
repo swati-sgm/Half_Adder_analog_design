@@ -84,6 +84,6 @@ Swati Mavinkattimath, Assistant Professor, KLE Dr. M S Sheshgiri College of Engi
 • Synopsys India
 • VLSI System Design (VSD) Corp. Pvt. Ltd India
 ## References:
-[1]	Rituraj Yadav, Ashish Sura, Sunita Dahiya, “HALF ADDER DESIGN USING VARIOUS TECHNOLOGIES AND COMPARISON OF VARIOUS PARAMETER PERFORMANCE” International Journal of Engineering Applied Sciences and Technology, 2021 Vol. 6, Issue 2, ISSN No. 2455-2143, Pages 95-100 
-[2]	Rajput, Anju & Dua, Tripti & Kumawat, Renu & Srinivasulu, Prof. Avireni. (2020). Half Adder Using Different Design Styles: A Review on Comparative Study. 7. 26-32.
-[3]		Murugesan, Sivakumar & Sundaramurthy, Omkumar. (2017). Implementation of Area & Power Optimized VLSI Circuits Using Logic Techniques. IOSR Journal of VLSI and Signal Processing (IOSR-JVSP). 7. 15-23. 
+- Rituraj Yadav, Ashish Sura, Sunita Dahiya, “HALF ADDER DESIGN USING VARIOUS TECHNOLOGIES AND COMPARISON OF VARIOUS PARAMETER PERFORMANCE” International Journal of Engineering Applied Sciences and Technology, 2021 Vol. 6, Issue 2, ISSN No. 2455-2143, Pages 95-100 
+- Rajput, Anju & Dua, Tripti & Kumawat, Renu & Srinivasulu, Prof. Avireni. (2020). Half Adder Using Different Design Styles: A Review on Comparative Study. 7. 26-32.
+- Murugesan, Sivakumar & Sundaramurthy, Omkumar. (2017). Implementation of Area & Power Optimized VLSI Circuits Using Logic Techniques. IOSR Journal of VLSI and Signal Processing (IOSR-JVSP). 7. 15-23. 
