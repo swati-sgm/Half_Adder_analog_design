@@ -6,7 +6,7 @@ This repository presents the design of Half Adder implemented using Synopsis Cus
  - [Reference Circuit Diagram](#reference-circuit-diagram)
  - [Reference Circuit Waveform](#reference-circuit-waveform)
  - [Tools Used](#tools-used)
- - [Pre-Layout Schematics and Simulations:](#pre-layout-schematics-and-simulations)
+ - [Schematics and Simulations:](#schematics-and-simulations)
  - [Netlist of the Circuit:](#netlist-of-the-circuit)
  - [Author:](#author)
  - [Acknowledgements:](#acknowledgements)
@@ -50,7 +50,7 @@ Figure 3. Half Adder Using CMOS Logic.
 • Synopsys 28nm PDK:
  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
  
- ## Pre-Layout Schematics and Simulations:
+ ## Schematics and Simulations:
  ### Schematics:
  ### Half Adder
  Initially Schematic of the Half Adder cell was implemented and converted into a symbol so that it could be used directly as delay cell from the library.
@@ -68,13 +68,17 @@ Figure 3. Half Adder Using CMOS Logic.
  
  ### Parameters set for Voltage Source for Input A
  
+ ![A](https://user-images.githubusercontent.com/100190726/155505423-33d7dd09-e86e-4ed5-9063-c6e9071985af.JPG)
+
+
  
  
  
  ### Parameters set for Voltage Source for Input B
  
  
- 
+ ![B](https://user-images.githubusercontent.com/100190726/155505312-5892520a-c083-4d9a-a4ba-a13dd4aa468e.JPG)
+
  
 
  
@@ -88,6 +92,10 @@ Figure 3. Half Adder Using CMOS Logic.
  ### Simulations:
  ### Transient Analysis:
 After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the outputs which needs to be plotted by selecting the nets on the schematic.
+
+![transient](https://user-images.githubusercontent.com/100190726/155507012-b7369b24-be78-401d-aae3-884e000e7ce0.JPG)
+
+
 Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
 
 ![ha_wave](https://user-images.githubusercontent.com/100190726/155284548-f95e65f7-0e13-40d9-ba06-64a3aa05d801.JPG)
