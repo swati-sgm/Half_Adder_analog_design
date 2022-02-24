@@ -78,7 +78,8 @@ Fig. 7: Half Adder Transient Analysis
 
 
 ## Netlist of the Circuit:
-Refer to the netlist of the circuit here:
+Refer to the netlist of the circuit here:[netlist.txt](https://github.com/swati-sgm/Half_Adder_analog_design/files/8129767/netlist.txt)
+
 
 
 ## Author:
