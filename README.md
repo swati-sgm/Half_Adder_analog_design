@@ -85,9 +85,9 @@ Refer to the netlist of the circuit here:
 Swati Mavinkattimath, Assistant Professor, KLE Dr. M S Sheshgiri College of Engineering and Technology Belagavi- 590008
 
 ## Acknowledgements:
-• Cloud Based Analog IC Design Hackathon
-• Synopsys India
-• VLSI System Design (VSD) Corp. Pvt. Ltd India
+- https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/
+- https://www.synopsys.com/
+- https://www.vlsisystemdesign.com/about-us/
 ## References:
 - Rituraj Yadav, Ashish Sura, Sunita Dahiya, “HALF ADDER DESIGN USING VARIOUS TECHNOLOGIES AND COMPARISON OF VARIOUS PARAMETER PERFORMANCE” International Journal of Engineering Applied Sciences and Technology, 2021 Vol. 6, Issue 2, ISSN No. 2455-2143, Pages 95-100 
 - Rajput, Anju & Dua, Tripti & Kumawat, Renu & Srinivasulu, Prof. Avireni. (2020). Half Adder Using Different Design Styles: A Review on Comparative Study. 7. 26-32.
